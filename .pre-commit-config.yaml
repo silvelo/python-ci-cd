@@ -3,11 +3,17 @@ repos:
     rev: 23.9.1 # Versión actual de Black
     hooks:
       - id: black
-        stages: [commit]
+        stages: [pre-commit]
   - repo: local
     hooks:
       - id: re-add-staged
         name: Re-add modified files to staged
         entry: git add --update
         language: system
-        stages: [commit]
+        stages: [pre-commit]
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v4.0.0 # Usa la última versión disponible
+    hooks:
+      - id: commitizen
+        stages: [commit-msg]

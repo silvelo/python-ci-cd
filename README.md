@@ -61,3 +61,17 @@ black ./main.py
 ```
 py -m pip install pre-commit
 ```
+
+Fichero de configuración `.pre-commit-config.yaml` donde vamos añadiendo las acciones a realizar, en este caso que nos formatee automáticamente y los cambios los añada al commit.
+
+# [Commitlint](https://pypi.org/project/commitizen/)
+
+```
+py -m pip install commitizen
+```
+
+- Añadir el hook para que realize la comprobación antes de hacer el `commit`
+
+```
+pre-commit install --hook-type commit-msg
+```

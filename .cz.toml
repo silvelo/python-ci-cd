@@ -1,0 +1,3 @@
+[tool.commitizen]
+name = "cz_conventional_commits"  # Convenciones de Conventional Commits
+version = "0.1.0"                 # Versión inicial del proyecto
