@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.9.1 # Versión actual de Black
+    hooks:
+      - id: black
+        stages: [commit]
+  - repo: local
+    hooks:
+      - id: re-add-staged
+        name: Re-add modified files to staged
+        entry: git add --update
+        language: system
+        stages: [commit]
