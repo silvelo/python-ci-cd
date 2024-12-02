@@ -64,6 +64,8 @@ black ./main.py
 py -m pip install pre-commit
 ```
 
+> Cada vez que se realian modificaciones en `pre-commit` es necesario ejecutar `pre-commit install` para actualizar los scripts.
+
 Fichero de configuración `.pre-commit-config.yaml` donde vamos añadiendo las acciones a realizar, en este caso que nos formatee automáticamente y los cambios los añada al commit.
 
 # [Commitlint](https://pypi.org/project/commitizen/)
