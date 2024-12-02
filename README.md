@@ -1,7 +1,9 @@
-Requisitos:
+# Requisitos:
 
-- Python >= 3.3
+- Python >= 3.3 
 - Python < usar [virtualenv](https://github.com/pypa/virtualenv)
+
+> En el caso de no usar otro gestor de entornos como puede ser anaconda.
 
 # Crear entorno virtual
 
