@@ -44,6 +44,8 @@ flake8 main./py
 # Configuración flake8
 
 Fichero `.flake8`
+[Reglas](https://www.flake8rules.com/)
+[Configuración con hooks](https://flake8.pycqa.org/en/latest/user/using-hooks.html)
 
 # Instalar [Black](https://github.com/psf/black)
 
