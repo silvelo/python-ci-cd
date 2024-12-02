@@ -85,3 +85,4 @@ pre-commit install --hook-type commit-msg
 - [isort](https://pypi.org/project/isort/): Ordenación imports
 - [pycodestyle’s](https://pycodestyle.pycqa.org/en/latest/): Alternativa a flake
 - [Pylint](https://pypi.org/project/pylint/): Alternativa a flake
+- [Ruff](https://github.com/astral-sh/ruff): Alternativa a flake
