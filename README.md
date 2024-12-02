@@ -81,3 +81,7 @@ py -m pip install commitizen
 ```
 pre-commit install --hook-type commit-msg
 ```
+# Recursos adicionales
+- [isort](https://pypi.org/project/isort/): Ordenación imports
+- [pycodestyle’s](https://pycodestyle.pycqa.org/en/latest/): Alternativa a flake
+- [Pylint](https://pypi.org/project/pylint/): Alternativa a flake
